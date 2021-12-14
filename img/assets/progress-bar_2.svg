@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+        <circle cx="75" cy="75" r="75" fill="#FFF" fill-rule="nonzero" stroke="#FCD500" stroke-width="9"/>
+        <text fill="#000" font-family="Ubuntu-Medium, Ubuntu" font-size="32" font-weight="400">
+            <tspan x="18.616" y="81">8 часов</tspan>
+        </text>
+        <text fill="#000" font-family="Ubuntu-Medium, Ubuntu" font-size="13" font-weight="400">
+            <tspan x="20.211" y="98">реальной работы</tspan>
+        </text>
+    </g>
+</svg>
