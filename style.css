@@ -241,6 +241,7 @@ ul {
 	transition: all ease .3s;
 	min-width: 220px;
 	line-height: 1.3;
+	border: none;
 }
 
 .prime__button:hover {
@@ -1348,11 +1349,18 @@ ul {
 	font-size: 15px;
 	color: rgba(0, 0, 0, 0.7);
 	border: none;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
 	padding: 0 0;
 	height: 45px;
 	box-shadow: none;
 	background-color: transparent;
+}
+
+.quest__input::placeholder,
+.quest__area::placeholder,
+.modal__input::placeholder,
+.modal__area::placeholder {
+	color: #ffffff;
 }
 
 .modal__input input {
@@ -1377,30 +1385,10 @@ ul {
 .modal__area:focus {
 	outline: 0;
 	border: none;
-	border-bottom: 1px solid black;
-	background-color: #fff;
+	border-bottom: 1px solid #ffffff;
 	box-shadow: none;
 	transition: none;
-}
-
-.quest__input::-webkit-input-placeholder,
-.quest__area::-webkit-input-placeholder {
-	color: rgb(84, 86, 87);
-}
-
-.quest__input::-moz-placeholder,
-.quest__area::-moz-placeholder {
-	color: rgb(84, 86, 87);
-}
-
-.quest__input:-moz-placeholder,
-.quest__area:-moz-placeholder {
-	color: rgb(84, 86, 87);
-}
-
-.quest__input:-ms-input-placeholder,
-.quest__area:-ms-input-placeholder {
-	color: rgb(84, 86, 87);
+	background-color: transparent;
 }
 
 .quest__subcaption,
@@ -2025,12 +2013,13 @@ input[id="low"]:checked + label[for="low"]::after {
 	text-align: center;
 }
 
-form.write__form {
+.write__form--form {
 	position: relative;
 	max-width: 369px;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 18px;
+	max-height: 40px;
 }
 
 .write__input {
@@ -2039,7 +2028,7 @@ form.write__form {
 	border-bottom: 1px solid #000;
 	background: transparent;
 	margin: 0 auto;
-	/*font-family: "Roboto";*/
+	box-shadow: none;
 	padding-left: 0;
 }
 
@@ -2052,7 +2041,7 @@ form.write__form {
 	transition: none;
 }
 
-form.write__form:after {
+.write__form--form:after {
 	content: url(img/index.png);
 	position: absolute;
 	right: 0;

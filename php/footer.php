@@ -49,7 +49,7 @@
 			<div class="grid-x">
 				<div class="cell large-5 medium-5 small-12">
 					<span class="footer__caption">Андрей Гунявин</span>
-                            <span class="footer__info">
+					<span class="footer__info">
                                 Карьерный наставник & <br>
                                 консультативный бизнес психолог
                             </span>
@@ -94,102 +94,6 @@
 		</div>
 	</div>
 </footer>
-</div>
-<div class="para">
-	<div class="modal">
-<span class="modal__caption q__caption">
-                    Остались вопросы?
-                </span>
-                    <span class="modal__description">
-                    Напишите мне и я отвечу Вам по email <br>
-                    или свяжусь с Вами по телефону
-                </span>
-		<form id="contact3" action="/wp-content/themes/alexwlami/send-mail-3.php" method="post" class="subscribe-form">
-			<div id="note3"></div>
-			<div id="fields3">
-				<input type="text" class="modal__input" name="name" placeholder="Ваше имя" required>
-				<input type="tel" class="modal__input" name="phone" placeholder="Телефон" required>
-				<input type="email" class="modal__input" name="email" placeholder="E-mail">
-				<textarea name="message" class="modal__area" placeholder="Сообщение"></textarea>
-				<p>
-					<button type="submit" id="submit" class="modal__button">Задать вопрос</button>
-				</p>
-			</div>
-		</form>
-		<div class="modal__close"></div>
-		<div class="modal__success" style="
-            /* opacity: 1; */
-            /* display: block; */
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 350px;
-            margin-left: -175px;
-            margin-top: -56px;
-        ">
-			<i class="fa fa-check-circle-o" aria-hidden="true" style="
-            font-size: 40px;
-        "></i>
-
-                        <span class="modal__thanks" style="
-            display: block;
-        ">Спасибо за доверие.</span>
-			<span class="modal__thanks">Я свяжусь с вами в течение 2-х часов.</span>
-		</div>
-		<div class="modal__close"></div>
-	</div>
-	<div class="modal__offer">
-
-            <span class="modal__caption q__caption">
-                    Вы в шаге от превосходной работы!
-                </span>
-                    <span class="modal__description">
-                    Заполните форму обратной связи <br>
-                    и выберите срочность
-                </span>
-
-		<form id="contact2" action="/wp-content/themes/alexwlami/send-mail-2.php" method="post" class="subscribe-form">
-			<div id="note2"></div>
-			<div id="fields2">
-
-				<input type="text" class="modal__input" name="name" placeholder="Ваше имя" required>
-				<input type="text" class="modal__input" name="phone" placeholder="Телефон" required>
-				<input type="email" class="modal__input" name="email" placeholder="E-mail">
-				<input type="radio" id="fast" name="speed" required value="Срочное написание резюме">
-				<label for="fast" class="modal__radio">Срочное написание резюме</label>
-				<input type="radio" id="low" name="speed" value="До 4-х дней">
-				<label for="low" class="modal__radio" checked>До 4-х дней</label>
-				<div class="modal__price"></div>
-				<p>
-					<button type="submit" id="submit" class="modal__button">Заказать резюме</button>
-				</p>
-			</div>
-		</form>
-
-
-		<div class="modal__success" style="
-            /* opacity: 1; */
-            /* display: block; */
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 350px;
-            margin-left: -175px;
-            margin-top: -56px;
-        ">
-			<i class="fa fa-check-circle-o" aria-hidden="true" style="
-            font-size: 40px;
-        "></i>
-
-                <span class="modal__thanks" style="
-            display: block;
-        ">Спасибо за доверие.</span>
-			<span class="modal__thanks">Я свяжусь с вами в течение 2-х часов.</span>
-		</div>
-		<div class="modal__close"></div>
-	</div>
-
-</div>
 
 
 <div rel="form1" class="black">
@@ -412,81 +316,17 @@
 	</div><!--form_box-->
 </div><!--black-->
 
-<div rel="form8" class="black">
-	<div class="big_box_close"></div>
-	<div class="form_box">
-		<a class="a_close_box"></a>
-		<div class="form_form">
-
-            <span class="modal__caption q__caption">
-                    Вы в шаге от превосходной работы!
-                </span>
-                    <span class="modal__description">
-                    Заполните форму срочного заказа
-                </span>
-
-
-			<form id="contact8" action="/wp-content/themes/alexwlami/send-mail-8.php" method="post" class="subscribe-form">
-				<div id="note8"></div>
-				<div id="fields8">
-
-					<input type="text" class="modal__input" name="name" placeholder="Ваше имя" required>
-					<input type="text" class="modal__input" name="phone" placeholder="Телефон" required>
-					<input type="email" class="modal__input" name="email" placeholder="E-mail">
-					<p>
-						<button type="submit" id="submit" class="modal__button">Заказать</button>
-					</p>
-				</div>
-			</form>
-
-
-		</div><!--form_form-->
-	</div><!--form_box-->
-</div><!--black-->
-
-
-<div rel="form9" class="black">
-	<div class="big_box_close"></div>
-	<div class="form_box">
-		<a class="a_close_box"></a>
-		<div class="form_form">
-
-            <span class="modal__caption q__caption">
-                    Вы в шаге от превосходной работы!
-                </span>
-                    <span class="modal__description">
-                    Заполните форму заказа услуги
-                </span>
-
-
-			<form id="contact9" action="/wp-content/themes/alexwlami/send-mail-9.php" method="post" class="subscribe-form">
-				<div id="note9"></div>
-				<div id="fields9">
-
-					<input type="text" class="modal__input" name="name" placeholder="Ваше имя" required>
-					<input type="tel" class="modal__input" name="phone" placeholder="Телефон" required>
-					<input type="email" class="modal__input" name="email" placeholder="E-mail">
-					<p>
-						<button type="submit" id="submit" class="modal__button">Заказать услугу</button>
-					</p>
-				</div>
-			</form>
-
-
-		</div><!--form_form-->
-	</div><!--form_box-->
-</div><!--black-->
 
 <!--Окно успеха-->
 <div class="black" id="succs">
 	<div class="flexbox">
 		<div class="modal-success">
-	<a class="a_close_box"></a>
-	<div class="modal__caption modal__header">
-		Спасибо
-	</div>
-	<span class="modal__description">Спасибо за доверие.<br>Я свяжусь с Вами в течение часа.</span>
-</div>
+			<a class="a_close_box"></a>
+			<div class="modal__caption modal__header">
+				Спасибо
+			</div>
+			<span class="modal__description">Спасибо за доверие.<br>Я свяжусь с Вами в течение часа.</span>
+		</div>
 	</div>
 </div>
 <!--Окно успеха-->
@@ -770,7 +610,7 @@
 								<div class="slide">
 									<img src="/wp-content/uploads/2020/07/Пример-резюме-менеджера-по-логистике-стр-2.jpg">
 								</div>
-									<div class="slide">
+								<div class="slide">
 									<img src="/wp-content/uploads/2020/07/Пример-резюме-менеджера-по-логистике-стр-3.jpg">
 								</div>
 							</div>
@@ -976,7 +816,8 @@
 						<div class="resume-slider__container">
 							<div class="resume-slider">
 								<div class="slide">
-									<img src="/wp-content/uploads/2021/08/primer-soprovoditelnogo-pisma-specialist-po-tenderam-scaled.jpg">
+									<img
+											src="/wp-content/uploads/2021/08/primer-soprovoditelnogo-pisma-specialist-po-tenderam-scaled.jpg">
 								</div>
 							</div>
 						</div>
@@ -1026,7 +867,8 @@
 						<div class="resume-slider__container">
 							<div class="resume-slider">
 								<div class="slide">
-									<img src="/wp-content/uploads/2021/08/primer-soprovoditelnogo-pisma-manager-po-rabote-s-klientami-scaled.jpg">
+									<img
+											src="/wp-content/uploads/2021/08/primer-soprovoditelnogo-pisma-manager-po-rabote-s-klientami-scaled.jpg">
 								</div>
 							</div>
 						</div>
@@ -1081,19 +923,22 @@
 	</div><!--form_box-->
 </div><!--black-->
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml      : true,
-      version    : 'v3.1'
-    });
-  }; 
-  (function(d, s, id){
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
+	window.fbAsyncInit = function () {
+		FB.init({
+			xfbml: true,
+			version: 'v3.1'
+		});
+	};
+	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {
+			return;
+		}
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "https://connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
 </script>
 <!--Форма со слайдером-->
 <?php wp_footer(); // необходимо для работы плагинов и функционала  ?>
