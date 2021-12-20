@@ -8,12 +8,14 @@ Author: Alex Wlami
 Author URI: 
 */
 @import "fonts/fonts.css";
+@import "css/typography.css";
 @import "css/flex.css";
 
 :root {
 	--primary: #fcd500;
 	--black: #000;
 	--border: #D8D8D8;
+	--white: #fff;
 	--grey: #CCC;
 	--grey100: #D7D7D7;
 	--grey200: #B3B3B3;
@@ -3747,6 +3749,10 @@ input[id="low"]:checked + label[for="low"]::after {
 	background-image: url('img/assets/path-3.svg');
 }
 
+.glyph.check-yellow {
+	background-image: url('img/icons/check-yellow.svg');
+}
+
 .glyph.france {
 	background-image: url('img/assets/france.svg');
 }
@@ -3765,6 +3771,22 @@ input[id="low"]:checked + label[for="low"]::after {
 
 .glyph.star {
 	background-image: url('img/icons/star.svg');
+}
+
+.glyph.star-outline {
+	background-image: url('img/icons/star-outline.svg');
+}
+
+.glyph.star-outline-fat {
+	background-image: url('img/icons/star-outline-fat.svg');
+}
+
+.glyph.puzzle-top {
+	background-image: url('img/icons/puzzle-outline-top.svg');
+}
+
+.glyph.sad-smile {
+	background-image: url('img/icons/sad-smile.svg');
 }
 
 .glyph.security {
@@ -3794,6 +3816,14 @@ input[id="low"]:checked + label[for="low"]::after {
 
 .glyph.vk {
 	background-image: url('img/icons/vk.svg');
+}
+
+.glyph.plus-circle {
+	background-image: url("img/icons/plus-circle.svg");
+}
+
+.glyph.puzzle-outline {
+	background-image: url("img/icons/puzzle-outline.svg");
 }
 
 .divider {
@@ -7159,4 +7189,150 @@ button.swiper-pagination-bullet {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+}
+
+.section.section-gray.section-hero {
+	padding-bottom: 0;
+}
+
+.hero {
+	background-image: url("img/assets/hero-bg.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+	padding-bottom: 100px;
+}
+
+.hero-card {
+	margin-bottom: 25px;
+}
+
+.hero-card .glyph {
+	margin-right: 20px;
+}
+
+.hero-headline {
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 46px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: var(--black);
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.hero-title {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: left;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.hero-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+
+.hero-price {
+	position: relative;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-right: 8px;
+}
+
+.hero-price > span {
+	position: relative;
+	z-index: 1;
+}
+
+.hero-price:before {
+	content: '';
+	position: absolute;
+	width: calc(100% + 5px);
+	z-index: 0;
+	height: 9px;
+	background: var(--primary);
+	left: -2px;
+	bottom: 0;
+	line-height: 25px;
+}
+
+.section.section-gray.section-hero-info {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.section-hero-info:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: var(--white);
+	height: 50px;
+	z-index: 0;
+}
+
+.hero-info {
+	display: flex;
+	position: relative;
+	z-index: 1;
+	max-width: 75rem;
+	margin: 0 auto;
+	padding: 50px;
+	background: var(--white);
+	border: 1px solid var(--grey100);
+}
+
+.header-info__item {
+	display: flex;
+	align-items: center;
+	padding-right: 50px;
+}
+
+.header-info__item:last-child {
+	padding-right: 0;
+}
+
+.hero-info__number {
+	font-size: 74px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 85px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-right: 15px;
+}
+
+.hero-info__title {
+	position: relative;
+	padding-top: 10px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.hero-info__title:before {
+	content: '';
+	position: absolute;
+	width: 43px;
+	height: 2px;
+	background: var(--primary);
+	top: 0;
+	left: 0;
 }
