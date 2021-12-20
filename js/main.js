@@ -226,6 +226,28 @@ $(document).ready(function () {
 		]
 	});
 
+	$('.plan-wrapper').slick({
+		mobileFirst: true,
+		initialSlide: 0,
+		responsive: [
+			{
+				breakpoint: 920,
+				settings: {
+					dots: true,
+					arrows: false,
+					infinite: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					adaptiveHeight: true
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: "unslick"
+			}
+		]
+	});
+
 	$('.close__form, .big_box_close').on('click', function () {
 		$('.resume-slider').delay(500).hide().slick('unslick');
 		$('.resume-slider__nav').delay(500).hide().slick('unslick');
