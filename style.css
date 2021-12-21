@@ -7997,3 +7997,33 @@ button.swiper-pagination-bullet {
 	line-height: 24px;
 }
 
+.more {
+
+}
+
+.more-hero {
+	width: 100%;
+	height: 735px;
+	position: relative;
+	margin-top: 70px;
+	color: var(--white);
+	padding-top: 215px;
+}
+
+.more-hero__container {
+	position: relative;
+	z-index: 1;
+}
+
+.more-hero__bg {
+	z-index: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('img/mask.png');
+}
