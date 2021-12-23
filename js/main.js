@@ -234,7 +234,7 @@ $(document).ready(function () {
 				breakpoint: 920,
 				settings: {
 					dots: true,
-					arrows: false,
+					arrows: true,
 					infinite: false,
 					slidesToShow: 1,
 					slidesToScroll: 1,
