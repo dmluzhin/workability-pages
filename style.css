@@ -15,6 +15,7 @@ Author URI:
 	--primary: #fcd500;
 	--black: #000;
 	--border: #D8D8D8;
+	--border-dark: #373737;
 	--white: #fff;
 	--grey: #CCC;
 	--grey100: #D7D7D7;
@@ -3865,6 +3866,11 @@ input[id="low"]:checked + label[for="low"]::after {
 	background-image: url("img/icons/speech-bubbles.svg");
 }
 
+.glyph.chevron-right {
+	background-image: url("img/icons/chevron-black.svg");
+	background-size: 8px;
+}
+
 .divider {
 	display: block;
 	width: 100%;
@@ -6454,6 +6460,40 @@ td.table__styled--head {
 
 .flex-column-none {
 	flex: 0 0 auto;
+}
+
+.resume-to-order__container {
+	position: relative;
+}
+
+
+.resume-to-order__arrow {
+	display: none;
+	position: absolute;
+	right: -14px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 28px;
+	height: 28px;
+	border: 2px solid var(--black);
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	background-color: var(--white);
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+	.resume-to-order__arrow {
+		display: flex;
+	}
+	.resume-to-order__arrow-container {
+		display: block;
+	}
 }
 
 .resume-to-order__card {

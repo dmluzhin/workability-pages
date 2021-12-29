@@ -391,6 +391,9 @@ $(document).ready(function () {
 		$('#card1').on('click', function () {
 			$('.mobile-scroller').css("transform", "translateX(0px)")
 		})
+		$('#arrow1').on('click', function () {
+			$('.mobile-scroller').css("transform", "translateX(0px)")
+		})
 	}
 });
 

@@ -286,6 +286,36 @@
 		display: none;
 	}
 
+	.plan-wrapper .slick-prev,
+	.plan-wrapper .slick-next {
+		bottom: -80px;
+		margin: auto;
+		width: 45px;
+		height: 45px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 25%;
+		transition: all ease .3s;
+		font-size: 0;
+	}
+
+	.plan-wrapper .slick-prev {
+		left: 20px;
+		background-image: url('/img/assets/shape_4.svg');
+		z-index: 5;
+	}
+
+	.plan-wrapper .slick-next {
+		right: 20px;
+		background-image: url('/img/assets/shape_3.svg');
+		z-index: 5;
+	}
+
+	.plan-card {
+		padding-bottom: 70px;
+		height: 222px;
+	}
+
 	.how__wrap .slick-prev,
 	.how__wrap .slick-next {
 		top: 0;
@@ -304,7 +334,9 @@
 	}
 
 	.how__wrap .slick-prev:before,
-	.how__wrap .slick-next:before {
+	.how__wrap .slick-next:before,
+	.plan-wrapper .slick-prev:before,
+	.plan-wrapper .slick-next:before {
 		content: '';
 		font-size: 0;
 	}
